@@ -24,11 +24,11 @@ print(sum_range(a, b))'''
 # Список будет заполняться рандомными целыми числами.
 # Рекомендую использовать несколько функций
 # (для заполнения списка целыми числами, для подсчета количества, для вывода)
-'''from random import random
+from random import random
 def create_rand_list() -> list:
     rand_list = []
     for i in range(len_list):
         rand_list.append(int(random()*100))
     return rand_list
 
-print(create_rand_list(10))'''
+print(create_rand_list(10))
