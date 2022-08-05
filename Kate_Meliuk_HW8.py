@@ -21,4 +21,6 @@ class Car:
 
 
 tesla = Car("white", "sedan", "2022")
+tesla.start()
+tesla.finish()
 print(tesla)
